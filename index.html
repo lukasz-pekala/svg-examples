@@ -4,9 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/main.css"/>
     <title>SVG-examples</title>
 </head>
 <body>
     
+    <nav class="navbar navbar-inverse ">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">SVG Examples</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Basic shapes</a></li>
+            <li><a href="#about">Coordinate system</a></li>
+            <li><a href="#contact">Styling with css</a></li>
+            <li><a href="#contact">Styling with css</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Rectangle</h1>
+                <svg width="400" height="150">
+                    <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+                </svg>
+            </div>
+            <div class="col-md-6">
+                <h1>Circle</h1>
+                <svg width="400" height="150">
+                    <circle cx="150" cy="50" r="35" />
+                </svg>
+            </div>
+        </div>
+
+        
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Layout positioning problems</h1>
+                <svg width="400" height="150">
+                    <circle cx="10" cy="15" r="35" />
+                </svg>
+            </div>
+
+            <div class="col-md-6">
+                <h1>SVG Line - &lt;line&gt;</h1>
+                <svg width="400" height="150">
+                    <line x1="0" y1="0" x2="250" y2="120" style="stroke:rgb(255,0,0);stroke-width:2" />
+                </svg>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Ellipse</h1>
+                <svg width="400" height="150">
+                    <ellipse cx="150" cy="80" rx="100" ry="50"
+                        style="fill:yellow;stroke:purple;stroke-width:2" />
+                </svg>
+                <ul>Code explanation:
+                    <li>The cx attribute defines the x coordinate of the center of the ellipse</li>
+                    <li>The cy attribute defines the y coordinate of the center of the ellipse</li>
+                    <li>The rx attribute defines the horizontal radius</li>
+                    <li>The ry attribute defines the vertical radius</li>
+                </ul>
+            </div>
+
+            <div class="col-md-6">
+                <h1>SVG Line - &lt;line&gt;</h1>
+                <svg width="400" height="150">
+                    <line x1="0" y1="0" x2="250" y2="120" style="stroke:rgb(255,0,0);stroke-width:2" />
+                </svg>
+            </div>
+        </div>
+
+    </div><!-- /.container -->
+
+
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js" />
 </body>
 </html>
