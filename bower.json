@@ -1,0 +1,27 @@
+{
+  "name": "svg-examples",
+  "homepage": "https://github.com/lukasz-pekala/svg-examples",
+  "authors": [
+    "Łukasz Pękala <lukasz.pekala@bitbucket.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "keywords": [
+    "SVG",
+    "graphics",
+    "web"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.4"
+  }
+}
