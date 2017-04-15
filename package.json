@@ -1,0 +1,35 @@
+{
+  "name": "svg-examples",
+  "version": "1.0.0",
+  "description": "SVG examples",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasz-pekala/svg-examples.git"
+  },
+  "keywords": [
+    "SVG",
+    "graphics",
+    "web"
+  ],
+  "author": "Łukasz Pękala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukasz-pekala/svg-examples/issues"
+  },
+  "homepage": "https://github.com/lukasz-pekala/svg-examples#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
