@@ -21,6 +21,5 @@ app.config(function($routeProvider) {
     })
     .when("/", {
         templateUrl : "views/basic-shapes.html"
-    })
-    ;
+    });
 });
