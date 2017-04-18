@@ -18,6 +18,9 @@ app.config(function($routeProvider) {
     .when("/advancedshapes", {
         templateUrl : "views/advanced-shapes.html"
     })
+    .when("/inlineandexternal", {
+        templateUrl : "views/inline-and-external-svg.html"
+    })
     .when("/groups", {
         templateUrl : "views/groups.html"
     })
