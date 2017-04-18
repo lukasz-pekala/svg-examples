@@ -9,8 +9,8 @@ app.run(function($rootScope){
 app.config(function($routeProvider) {
     console.log("Hej");
     $routeProvider
-    .when("/layoutandviewbox", {
-        templateUrl : "views/layout-and-viewbox.html"
+    .when("/coordinate-system", {
+        templateUrl : "views/coordinate-system.html"
     })
     .when("/basicshapes", {
         templateUrl : "views/basic-shapes.html"
