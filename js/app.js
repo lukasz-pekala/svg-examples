@@ -1,22 +1,30 @@
 var app = angular.module("myApp", ["ngRoute"]);
+
+app.run(function($rootScope){
+    $rootScope.$on('$routeUpdate', function(){
+        console.log("routechanged.");
+    });
+})
+
 app.config(function($routeProvider) {
+    console.log("Hej");
     $routeProvider
-    .when("layout-and-viewbox", {
+    .when("/layoutandviewbox", {
         templateUrl : "views/layout-and-viewbox.html"
     })
-    .when("basic-shapes", {
+    .when("/basicshapes", {
         templateUrl : "views/basic-shapes.html"
     })
-    .when("advanced-shapes", {
+    .when("/advancedshapes", {
         templateUrl : "views/advanced-shapes.html"
     })
     .when("/groups", {
         templateUrl : "views/groups.html"
     })
-    .when("transformations", {
+    .when("/transformations", {
         templateUrl : "views/transformations.html"
     })
-    .when("effects", {
+    .when("/effects", {
         templateUrl : "views/effects.html"
     })
     .when("/", {
