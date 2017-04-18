@@ -37,3 +37,11 @@ app.config(function($routeProvider) {
         templateUrl : "views/basic-shapes.html"
     });
 });
+
+
+app.controller('TransformationsController', ['$scope', function($scope) {
+  $scope.rotation_angle = 0;
+  $scope.translate_x = 0;
+  $scope.translate_y = 0;
+  $scope.scale = 1;
+}]);

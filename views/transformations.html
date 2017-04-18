@@ -1,1 +1,45 @@
-TRANSFORMATIONS
+<div class="row">
+    <div ng-controller="TransformationsController">
+        <div class="col-md-12">
+            <h2>Transformations</h2>
+            <svg width="800" height="600">
+                <g ng-attr-transform="rotate({{rotation_angle}}) scale({{scale}}) translate({{translate_x}} {{translate_y}})">
+                    <polygon points="0,100 200,100 100,0" class="house-roof"/>
+                    <rect x="10" y="100" width="180" height="100" class="house-wall"></rect>
+                    <rect x="90" y="155" width="20" height="45" class="house-door"></rect>
+                    <g transform="translate(35, 130)">
+                        <rect x="0" y="0" width="14" height="14" class="house-window"/>
+                        <rect x="16" y="0" width="14" height="14" class="house-window"/>
+                        <rect x="0" y="16" width="14" height="14" class="house-window"/>
+                        <rect x="16" y="16" width="14" height="14" class="house-window"/>
+                    </g>
+                    <g transform="translate(135, 130)">
+                        <rect x="0" y="0" width="14" height="14" class="house-window"/>
+                        <rect x="16" y="0" width="14" height="14" class="house-window"/>
+                        <rect x="0" y="16" width="14" height="14" class="house-window"/>
+                        <rect x="16" y="16" width="14" height="14" class="house-window"/>
+                    </g>
+                </g>
+            </svg>
+            
+        </div>
+        <div class="col-md-3">
+            Rotation angle: {{rotation_angle}}<br/>
+            <input type="range" min="0" max="360" ng-model="rotation_angle">
+        </div>
+        <div class="col-md-3">
+            Translate X: {{translate_x}}<br/>
+            <input type="range" min="0" max="400" ng-model="translate_x">
+        </div>
+        <div class="col-md-3">
+            Translate Y: {{translate_y}}<br/>
+            <input type="range" min="0" max="400" ng-model="translate_y">
+        </div>
+        <div class="col-md-3">
+            Scale: {{scale}}<br/>
+            <input type="range" min="0" max="5" step="0.01"" ng-model="scale">
+        </div>
+    </div>
+</div>
+
+
