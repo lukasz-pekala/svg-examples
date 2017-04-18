@@ -11,14 +11,10 @@ Follow those steps:
 
   
 ```
-#!
-
 npm install
 ```
 
 ```
-#!
-
 npm start
 ```
 
@@ -26,8 +22,6 @@ npm start
 2) Go to page: 
 
 ```
-#!
-
 localhost:8080
 ```
 
