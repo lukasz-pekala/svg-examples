@@ -27,6 +27,9 @@ app.config(function($routeProvider) {
     .when("/effects", {
         templateUrl : "views/effects.html"
     })
+    .when("/bootstrap", {
+        templateUrl : "views/bootstrap.html"
+    })
     .when("/", {
         templateUrl : "views/basic-shapes.html"
     });
