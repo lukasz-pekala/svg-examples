@@ -1,15 +1,35 @@
+<h1>Groups and styling</h1>
 <div class="row">
     <div class="col-md-6">
-        <h1>Groups</h1>
-        <svg width="400" height="150">
-            <circle cx="10" cy="15" r="35" />
+        <h1>What's wrong with the wall?</h1>
+        <svg width="400" height="300">
+            <polygon points="0,100 200,100 100,0" class="house-roof"/>
+            <rect x="10" y="200" width="180" height="100" class="house-wall"></rect>
         </svg>
     </div>
 
-    <div class="col-md-6">
-        <h1>SVG Line - &lt;line&gt;</h1>
-        <svg width="400" height="150">
-            <rect x1="250" y1="120" x2="250" y2="120" style="stroke:rgb(255,0,0);stroke-width:2" />
+        <div class="col-md-6">
+        <h1>Groups and styling</h1>
+        <svg width="400" height="300">
+            <polygon points="0,100 200,100 100,0" class="house-roof"/>
+            <rect x="10" y="100" width="180" height="100" class="house-wall"></rect>
+            <rect x="90" y="155" width="20" height="45" class="house-door"></rect>
+            <g transform="translate(35, 130)">
+                <rect x="0" y="0" width="14" height="14" class="house-window"/>
+                <rect x="16" y="0" width="14" height="14" class="house-window"/>
+                <rect x="0" y="16" width="14" height="14" class="house-window"/>
+                <rect x="16" y="16" width="14" height="14" class="house-window"/>
+            </g>
+            <g transform="translate(135, 130)">
+                <rect x="0" y="0" width="14" height="14" class="house-window"/>
+                <rect x="16" y="0" width="14" height="14" class="house-window"/>
+                <rect x="0" y="16" width="14" height="14" class="house-window"/>
+                <rect x="16" y="16" width="14" height="14" class="house-window"/>
+            </g>
         </svg>
+        <ul>
+            <li>&lt;g&gt; is not a drawable element so you cannot style it with css :(</li>
+            <li>When we translate everything inside &lt;g&gt; element has new coordinate system</li>
+        </ul>
     </div>
 </div>

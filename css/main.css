@@ -3,3 +3,19 @@ svg {
     border-style: dashed;
     border-color: red;
 }
+
+.house-roof {
+    fill: #FF2200; /* color attribute won't work! */
+}
+
+.house-wall {
+    fill: #EEBB00;
+}
+
+.house-door {
+    fill: #FF2200;
+}
+
+.house-window {
+    fill: #87CEFF;
+}
