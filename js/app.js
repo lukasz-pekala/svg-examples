@@ -33,8 +33,11 @@ app.config(function($routeProvider) {
     .when("/bootstrap", {
         templateUrl : "views/bootstrap.html"
     })
+    .when("/whysvg", {
+        templateUrl : "views/why-svg.html"
+    })
     .when("/", {
-        templateUrl : "views/basic-shapes.html"
+        templateUrl : "views/why-svg.html"
     });
 });
 
