@@ -28,3 +28,11 @@ localhost:8080
 ### Why not newest Angular.js ?? ###
 Well, here is the answer:
 http://stackoverflow.com/questions/41211875/angularjs-1-6-0-latest-now-routes-not-working
+
+### Not covered topics / Not answered questions ###
+* Comparison with WebGL
+* viewBox and responsive SVG
+* animation
+  * with css
+  * with svg tags
+  * with javascript
