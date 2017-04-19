@@ -27,8 +27,8 @@ app.config(function($routeProvider) {
     .when("/transformations", {
         templateUrl : "views/transformations.html"
     })
-    .when("/effects", {
-        templateUrl : "views/effects.html"
+    .when("/more", {
+        templateUrl : "views/more.html"
     })
     .when("/bootstrap", {
         templateUrl : "views/bootstrap.html"
