@@ -7,7 +7,6 @@ app.run(function($rootScope){
 })
 
 app.config(function($routeProvider) {
-    console.log("Hej");
     $routeProvider
     .when("/coordinate-system", {
         templateUrl : "views/coordinate-system.html"
