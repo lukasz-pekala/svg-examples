@@ -34,5 +34,5 @@ http://stackoverflow.com/questions/41211875/angularjs-1-6-0-latest-now-routes-no
 * viewBox and responsive SVG
 * animation
   * with css
-  * with svg tags
+  * with svg animation elements: https://www.w3.org/TR/SVG/animate.html | https://www.w3.org/TR/SVG/images/animate/anim01.svg
   * with javascript
