@@ -31,7 +31,8 @@ http://stackoverflow.com/questions/41211875/angularjs-1-6-0-latest-now-routes-no
 
 ### Not covered topics / Not answered questions ###
 * Comparison with WebGL
-* viewBox and responsive SVG
+* viewBox and responsive SVG -> Code School level 3.8
+* Symbols -> Code School level 4.3
 * animation
   * with css
   * with svg animation elements: https://www.w3.org/TR/SVG/animate.html | https://www.w3.org/TR/SVG/images/animate/anim01.svg
